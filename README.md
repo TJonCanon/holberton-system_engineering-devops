@@ -1,1 +1,1 @@
-# holberton-system_engineering-devops
+These are my answers for the shell basics task
