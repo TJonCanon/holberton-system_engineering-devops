@@ -1,1 +1,1 @@
-These are my answers for the shell basics task
+This is the readme file for 0x01, Shell permissions
