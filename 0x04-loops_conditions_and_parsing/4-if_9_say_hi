@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Script that writes best school 10 times except for after the 9th line it displays hi
+i=0
+while [ "$i" -lt "10" ]
+do echo "Best School"
+i=$(($i+1))
+if [ "$i" -eq "9" ]
+then echo -e "Hi"
+fi	
+done
