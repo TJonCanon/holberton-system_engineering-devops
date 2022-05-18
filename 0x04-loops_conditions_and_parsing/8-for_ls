@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script will display the current directory in a list format where only the part of the after ther first dash is displayed
+list=$(ls)
+for OUTPUT in $list
+do
+	echo "$OUTPUT" | cut -d - -f "2-"
+done
