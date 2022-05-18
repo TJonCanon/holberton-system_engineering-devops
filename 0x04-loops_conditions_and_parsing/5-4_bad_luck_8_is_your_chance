@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#This is a script that displays Best School in 10 lines except for line8 where it displays good luck and line 4 where it explains bad luck
+i=0
+while [ "$i" -lt "10" ]
+do 
+	i=$((i+1))
+	if [ "$i" -eq "8" ]
+	then
+		echo "good luck"
+	elif [ "$i" -eq "4" ]
+	then
+		echo "bad luck"
+	else
+		echo "Best School"
+	fi
+done 
