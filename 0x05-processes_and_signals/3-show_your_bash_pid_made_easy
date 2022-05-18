@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This is an easier way to display the processes that contain the name bash
+pgrep -1 bash
